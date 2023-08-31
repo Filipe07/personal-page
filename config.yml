@@ -26,6 +26,9 @@ languages:
           series: series
         menu:
             main:
+                - name: Home
+                  url: /
+                  weight: 5
                 - name: Archive
                   url: archives
                   weight: 5
@@ -79,7 +82,9 @@ params:
         TitleImage: "me.png"
         Content: >
             Welcome to demo of Filipe Gonçalves's Notes.
+
             - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
+
             - Follow me at Medium or keep attention to this page!
 
     socialIcons:
