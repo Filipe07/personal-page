@@ -1,6 +1,6 @@
 baseURL: "https://filipe07.github.io/personal-page/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 title: Filipe Gonçalves
-paginate: 5
+paginate: 6
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -35,10 +35,6 @@ languages:
                 - name: Tags
                   url: tags/
                   weight: 10
-                - name: WiKi
-                  url: https://github.com/adityatelange/hugo-PaperMod/wiki/
-                - name: Discord
-                  url: https://discord.gg/ahpmTvhVmp
 
 outputs:
     home:
@@ -48,9 +44,8 @@ outputs:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-    author: Theme PaperMod
-    # author: ["Me", "You"] # multiple authors
+    description: "Filipe Gonçalves - https://filipe07.github.io/personal-page/"
+    author: Filipe Gonçalves
 
     defaultTheme: auto
     # disableThemeToggle: true
@@ -80,19 +75,18 @@ params:
               url: tags
 
     homeInfoParams:
-        Title: "PaperMod"
+        Title: "Personal Page233"
+        TitleImage: ""
         Content: >
-            Welcome to demo of hugo's theme PaperMod.
-
+            Welcome to demo of Filipe Gonçalves's Notes.
             - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
-
-            - Do give a 🌟 on Github !
-
-            - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
+            - Follow me at Medium or keep attention to this page!
 
     socialIcons:
-        - name: github
-          url: "https://github.com/adityatelange/hugo-PaperMod"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/filipe07/"
+        - name: medium
+          url: "https://medium.com/@filipe07"
         - name: KoFi
           url: "https://ko-fi.com/adityatelange"
         - name: Rss
