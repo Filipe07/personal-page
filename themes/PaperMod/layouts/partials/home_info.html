@@ -1,7 +1,12 @@
 {{- with site.Params.homeInfoParams }}
 <article class="first-entry home-info">
     <header class="entry-header">
-        <h1>{{ .Title | markdownify }}</h1>
+        <span>
+            <h1>{{ .Title | markdownify }}</h1>
+        </span>
+        <span style="display: inline-flex;">
+            <img src="{{ .TitleImage}} ">
+        </span>
     </header>
     <div class="entry-content">
         {{ .Content | markdownify }}

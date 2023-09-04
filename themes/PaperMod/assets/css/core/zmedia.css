@@ -1,3 +1,9 @@
+@media screen and (max-width: 480px) {
+    .first-entry .entry-header span img {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 768px) {
     /* theme-vars */
     :root {

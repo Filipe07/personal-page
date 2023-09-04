@@ -1,4 +1,4 @@
-baseURL: "https://filipe07.github.io/personal-page/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+baseURL: "https://fgoncalves.dev" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 title: Filipe Gonçalves
 paginate: 6
 theme: PaperMod
@@ -46,13 +46,13 @@ outputs:
         - JSON
 
 params:
-    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    env: local # to enable google analytics, opengraph, twitter-cards and schema.
     description: "Filipe Gonçalves - https://filipe07.github.io/personal-page/"
     author: Filipe Gonçalves
 
     defaultTheme: auto
     # disableThemeToggle: true
-    ShowShareButtons: true
+    ShowShareButtons: false
     ShowReadingTime: true
     # disableSpecial1stPost: true
     displayFullLangName: true
@@ -60,47 +60,27 @@ params:
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
     ShowRssButtonInSectionTermList: true
-    ShowToc: true
-    # comments: false
+    ShowToc: false
+    comments: false
     images: ["papermod-cover.png", "me.png"]
 
-    profileMode:
-        enabled: false
-        title: PaperMod
-        imageUrl: "#"
-        imageTitle: my image
-        # imageWidth: 120
-        # imageHeight: 120
-        buttons:
-            - name: Archives
-              url: archives
-            - name: Tags
-              url: tags
-
     homeInfoParams:
-        Title: "Filipe Gonçalves"
+        Title: "Hi there"
         TitleImage: "me.png"
         Content: >
-            Welcome to demo of Filipe Gonçalves's Notes.
+            Welcome to my personal page.
 
-            - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
-
-            - Follow me at Medium or keep attention to this page!
+            - I am **Filipe Gonçalves**, an Engineering Manager at Infraspeak. This page will explore topics about team management, agile methodologies, and software engineering fueled by Padel sport.
 
     socialIcons:
-        - name: linkedin
-          url: "https://www.linkedin.com/in/filipe07/"
         - name: medium
           url: "https://medium.com/@filipe07"
-        - name: KoFi
-          url: "https://ko-fi.com/adityatelange"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/filipe07/"
         - name: Rss
           url: "index.xml"
-
-    editPost:
-        URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
-        Text: "Suggest Changes" # edit text
-        appendFilePath: true # to append file path to Edit link
+        - name: KoFi
+          url: "https://ko-fi.com/filipegoncalves"
 
     # label:
     #     text: "Home"
@@ -146,26 +126,8 @@ markup:
         # lineNos: true
         # style: monokai
 
-privacy:
-    vimeo:
-        disabled: false
-        simple: true
-
-    twitter:
-        disabled: false
-        enableDNT: true
-        simple: true
-
-    instagram:
-        disabled: false
-        simple: true
-
-    youtube:
-        disabled: false
-        privacyEnhanced: true
-
 services:
     instagram:
-        disableInlineCSS: true
+        disableInlineCSS: false
     twitter:
-        disableInlineCSS: true
+        disableInlineCSS: false
