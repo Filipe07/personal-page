@@ -19,6 +19,8 @@ After years of working with various Scrum implementations, there are some common
 >  *💡 Disclaimer*
 The intention behind this article is not to be a description of Scrum “by the book”. There are many approaches based on Scrum this is one of them based upon experience of leading teams. Consider this as a practical example, rather than a strict definition.
 
+___
+
 ### What are the important moments in a sprint?
 
 ![2 Week Scrum meetings approach example](https://cdn-images-1.medium.com/max/13838/1*dSDUFphApqG9dyrP3kL3Ig.png)
@@ -63,6 +65,6 @@ With this being said, it is by no means a closed process and should be seen as a
 
 To close, I leave these two mentions:
 
-* *This article is inspired by the [Mike Cohn](undefined) [article’s](https://www.mountaingoatsoftware.com/blog/what-happens-when-during-a-sprint)*
+* *This article is inspired by the [Mike Cohn](https://medium.com/@mikecohn) [article’s](https://www.mountaingoatsoftware.com/blog/what-happens-when-during-a-sprint)*
 
-* *If you want deep dive into Scrum, you can follow [Maria Chec](undefined) and her [youtube channel](https://www.youtube.com/@AgileStateofMind). She has a good very good content for this kind of topic.*
+* *If you want deep dive into Scrum, you can follow [Maria Chec](https://mariachec.medium.com/) and her [youtube channel](https://www.youtube.com/@AgileStateofMind). She has a good very good content for this kind of topic.*
