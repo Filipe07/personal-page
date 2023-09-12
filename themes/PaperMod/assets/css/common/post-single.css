@@ -301,7 +301,7 @@
 }
 
 .post-footer {
-    margin-top: 56px;
+    margin-top: 64px;
 }
 
 .post-tags li {
@@ -320,11 +320,11 @@
 
 .post-tags a {
     display: block;
-    padding-inline-start: 14px;
-    padding-inline-end: 14px;
+    padding-inline-start: 8px;
+    padding-inline-end: 8px;
     color: var(--secondary);
     font-size: 14px;
-    line-height: 34px;
+    line-height: 24px;
     background: var(--code-bg);
 }
 
