@@ -10,6 +10,7 @@
     padding: calc((var(--footer-height) - var(--gap)) / 2) var(--gap);
     text-align: center;
     line-height: 24px;
+    margin-top: 48px;
 }
 
 .footer span {
@@ -57,4 +58,12 @@
 .top-link:focus,
 #theme-toggle:focus {
     outline: 0;
+}
+
+.footer .social_icons {
+    float: right;
+}
+
+.footer .social-icons a{
+    border-bottom: none;
 }

@@ -68,9 +68,9 @@ params:
         Title: "Hi there"
         TitleImage: "me.png"
         Content: >
-            Welcome to my personal page.
+            Welcome to my personal page,
 
-            - I am **Filipe Gonçalves**, an Engineering Manager at Infraspeak. This page will explore topics about team management, agile methodologies, and software engineering fueled by Padel sport.
+            - I am **Filipe Gonçalves**, an Engineering Manager at Infraspeak. In this page I will explore some topics about team management, agile methodologies, and software engineering fueled by Padel sport.
 
     socialIcons:
         - name: medium

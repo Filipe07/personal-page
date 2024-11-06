@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 300px;
+    min-height: 240px;
     margin: var(--gap) 0 calc(var(--gap) * 2) 0;
 }
 
@@ -44,6 +44,8 @@
 .first-entry .entry-content {
     margin: 14px 0;
     font-size: 16px;
+    font-weight: 300;
+    line-height: 1.9;
     -webkit-line-clamp: 3;
 }
 
@@ -63,6 +65,7 @@
     border-radius: var(--radius);
     transition: transform 0.1s;
     border: 1px solid var(--border);
+    /* min-height: 180px; */
 }
 
 .post-entry:active {

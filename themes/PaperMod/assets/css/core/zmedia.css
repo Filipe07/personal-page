@@ -2,6 +2,15 @@
     .first-entry .entry-header span img {
         display: none;
     }
+    .footer .social_icons {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .social_icons {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -15,9 +24,9 @@
         transform: scale(0.85);
     }
 
-    /* post-entry */
+    /* first-entry */
     .first-entry {
-        min-height: 260px;
+        min-height: 240px;
     }
 
     /* archive */

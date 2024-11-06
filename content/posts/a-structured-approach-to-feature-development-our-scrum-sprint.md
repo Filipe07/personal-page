@@ -1,6 +1,6 @@
 ---
 author: "Filipe Gonçalves"
-title: "What happens during a Scrum sprint?"
+title: "A Structured Approach to Feature Development: Our Scrum Sprint"
 date: "2023-02-06"
 description: ""
 tags: ["Agile","Scrum","Leadership","Engineering Management","Agile Project Management"]
