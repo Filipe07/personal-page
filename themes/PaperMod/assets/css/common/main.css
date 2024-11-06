@@ -27,16 +27,6 @@
     margin-inline-start: auto;
 }
 
-.social-icons {
-    padding: 12px 0;
-}
-
-
-.social-icons a svg {
-    height: 26px;
-    width: 26px;
-}
-
 code {
     direction: ltr;
 }

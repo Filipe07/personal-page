@@ -79,8 +79,6 @@ params:
           url: "https://www.linkedin.com/in/filipe07/"
         - name: Rss
           url: "index.xml"
-        - name: KoFi
-          url: "https://ko-fi.com/filipegoncalves"
 
     # label:
     #     text: "Home"
